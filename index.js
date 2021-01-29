@@ -33,6 +33,9 @@ const createCardGrid = async () =>{
         <div class="card_header" id="heading-${id}">
           <div class="card_body">
             <h5>${name}</h5>
+            <div class="card_img_container">
+              <img class="card_img" src="${path}.${extension}" alt="${name}">
+            </div>
             <p>${description}</p>
           </div>
         </div>
